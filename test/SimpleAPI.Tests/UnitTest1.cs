@@ -11,7 +11,7 @@ namespace SimpleAPI.Tests
         public void checkReturnName()
         {
             var returnValue=controller.Get();
-            Assert.Equal("It is working", returnValue);
+            Assert.Equal("It is workin", returnValue);
         }
 
         [Fact]
